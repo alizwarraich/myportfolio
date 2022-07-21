@@ -66,6 +66,12 @@ h6 {
     font-size: 40px !important;
   }
 }
+@media (max-width:567px) {
+  .technologies {
+    display: grid;
+    grid-template-columns: repeat(3, 20vh);
+  }
+}
 
 @media (min-width: 768px) {
   .col-md-6 {
