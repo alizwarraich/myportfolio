@@ -66,6 +66,12 @@ h6 {
     font-size: 40px !important;
   }
 }
+
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(4, 20vh);
+}
+
 @media (max-width:567px) {
   .technologies {
     display: grid;
@@ -331,9 +337,4 @@ p {
 .blog-entry .meta>div a {
   font-size: 15px;
   color: #8c8c8c;
-}
-
-.technologies {
-  display: grid;
-  grid-template-columns: repeat(4, 20vh);
 }
