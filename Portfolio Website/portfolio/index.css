@@ -75,7 +75,7 @@ h6 {
 @media (max-width:567px) {
   .technologies {
     display: grid;
-    grid-template-columns: repeat(3, 20vh);
+    grid-template-columns: repeat(2, 20vh);
   }
 }
 
